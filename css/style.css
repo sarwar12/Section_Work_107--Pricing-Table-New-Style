@@ -1,0 +1,104 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 0 0;}
+/* Main CSS Stop */
+/* === Pricing Table Section CSS Start === */
+.pricing-title-wrapper{
+	background-image: url(../img/bg.jpg);
+	background-position:center;
+	background-size:cover;
+	background-color: #ddd;
+	color: #000;
+	text-align: center;
+}
+.pricing-title-wrapper h2 {
+	font-weight: 300;
+	font-size: 50px;
+	color: #09a1fd;
+}
+.pricing-header {
+  background-color: #2b303b;
+  text-align: center;
+  color: #ccc;
+  position: relative;
+}
+.pricing-header h2 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.pricing-header {
+  display: table;
+  width: 100%;
+  height: 250px;
+}
+.pricing-header-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 30px;
+}
+.special-text {
+  position: absolute;
+  left: 0;
+  top: -48px;
+  background-color: #656d7e;
+  width: 100%;
+  padding: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+.pricing-content {
+  font-size: 110%;
+  padding: 30px;
+}
+.pricing-subtitle {
+  margin: 0;
+  background: #f0f0f0;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.pricing-note {
+  opacity: .6;
+  font-size: 70%;
+  margin-left: -10px;
+  margin-top: 20px;
+}
+.pricing-title-wrapper {
+  padding-top: 64px;
+  padding-bottom: 200px;
+}
+.pricing-list-wrapper {
+  margin-top: -110px;
+}
+	/* Row SIze Customize */
+.pricing-list-wrapper .row {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.pricing-list-wrapper .col-lg-4 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* === Pricing Table Section CSS Stop === */
